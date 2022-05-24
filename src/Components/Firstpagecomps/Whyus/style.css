@@ -1,0 +1,57 @@
+.whyus_main {
+    height: 962px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.whyus_header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.whyus_header-text {
+    font-size: 40px;
+    color: #080606;
+    padding-bottom: 50px;
+}
+.all_data_container {
+    height: 100%;
+
+}
+.element_container{
+    height: 240px;
+}
+.element-text-container {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    height: 20%;
+
+}
+.con_img_label {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_element {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-element {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-element-style {
+    color: #59443F;
+    font-weight: 400;
+}

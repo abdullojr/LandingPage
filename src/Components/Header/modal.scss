@@ -1,0 +1,54 @@
+.full_modal_view {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgba(155, 82, 50, 0.1) !important;
+    border-radius: 20px;
+
+    .md_con {
+        width: 100%;
+        height: 100%;
+
+        .exit_icon {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: end;
+            align-items: flex-end;
+            padding-right: 20px;
+            
+            a {
+                p{
+                    color:#C3B9B5;
+                }
+            }
+        }
+        .md_text_con {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                padding-bottom: 20px;
+                font-size: 30px;
+                font-weight: 400;
+                color: #080606;;
+            }
+            a{
+                p{
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    color: #080606;
+                    
+                }
+
+                :hover {
+                    color: #FFC59E !important;
+                }
+            }
+        }
+    }
+}

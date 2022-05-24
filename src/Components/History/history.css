@@ -1,0 +1,53 @@
+.main-parent {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+}
+
+.history-comp-con {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-con {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.readmore {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.imgContainer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.readmore-text:hover {
+    cursor: pointer;
+
+}
+.slick-prev {
+    font-size: 30px !important;
+    background-color: #FFC59E !important;
+    border-radius: 50%;
+}
+.slick-next {
+    font-size: 30px !important;
+    background-color: #FFC59E !important;
+    border-radius: 50%;
+}
+.buton {
+    background: #FFC59E;
+box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}

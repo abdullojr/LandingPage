@@ -1,0 +1,144 @@
+.footer {
+    width: 100%;
+    background-color: #59443F;
+
+}
+.padding {
+    padding-top: 80px ;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 68px;
+    height: 100%;
+}
+.footer-icon-label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.fontSize {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+.aybolit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aybolit-label {
+    font-size: 20px;
+    color: white;
+}
+.footer-icon {
+    padding-right: 20px;
+}
+.ftsp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rest-icon {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.newRest {
+
+    .icons {
+        width: 100%;
+        height: 40px;
+        
+        .all_icon {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            
+            .icon_style {
+                padding-right: 50px;
+            }
+            .icon_style_end{
+                padding-right: 30px;
+            }
+        }
+    }
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .politics {
+        padding-right: 100px;
+        ul {
+            list-style: none;
+
+            li{
+                a {
+                    font-size: 20px;
+                    color: white;
+                    text-decoration: none;
+                }
+                
+            }
+        }
+    }
+
+    .links_con {
+        padding-right: 100px;
+        ul {
+            list-style: none;
+
+            li{
+                a{
+                    font-size: 20px;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .links_con_2 {
+        padding-right: 258px;
+
+        ul{
+            list-style: none;
+
+            li{
+                a{
+                    font-size: 20px;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .links_con_3{
+        ul {
+            list-style: none;
+            padding-top: 30px;
+            li{
+                color: white;
+            }
+        }
+    }
+    
+}
+.madeWithlove {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    .last_element {
+        h1 {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

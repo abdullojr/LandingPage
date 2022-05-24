@@ -1,0 +1,75 @@
+.app-navbar {
+    padding: 65px 80px;
+
+}
+
+.nav-links {
+    font-size: 20px;
+    color: #C3B9B5 !important;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 20px;
+    line-height: 20px;
+    padding-right: 80px !important;
+}
+.nav-links:hover {
+    color: #59443F !important;
+
+}
+
+
+.l_hover{
+    color: #FFC59E !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.l_hover:hover .little_loc {
+    color: #59443F !important;
+}
+.l_hover:hover {
+    color: #59443F !important;
+}
+
+.main_grid_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.modal_box_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dropdown-menu {
+    width: 300px;
+    height: 230px;
+    border-radius:20px;
+    box-shadow: 2px 2px 20px rgba(155, 82, 50, 0.1);
+    background-color: white;    
+}
+
+.dropdown_link {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end !important;
+    color: #080606;
+    font-weight: 400;
+    font-size: 20px !important; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px !important;
+}
+
+.dropdown-item:hover{
+    color: 080606 !important;
+    text-indent: 10px !important;
+    background-color: transparent !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}

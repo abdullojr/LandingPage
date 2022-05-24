@@ -1,0 +1,52 @@
+.appoint-header {
+    background-color: white !important;
+    height: 150px;
+
+    .app-navbar {
+        padding-top: 32px;
+    }
+}
+
+.appoint-footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.app-main-element {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .back {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .back-arrow-icon {
+            color: #FFC59E;
+            font-size: 20px;
+
+        }
+
+        .go_back {
+            color: #FFC59E;
+            padding-top: 10px;
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            
+        }
+        
+    }
+}
+
+.go_back {
+    &:hover {
+        color: #59443F !important;
+    }
+
+}
+
+
