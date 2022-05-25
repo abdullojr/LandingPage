@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />} />
         <Route path='/appoint' element={<Appoint />} />
-        {/* This is New TExt */}
       </Routes>
     </div>
   );

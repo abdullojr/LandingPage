@@ -4,6 +4,7 @@ import { Progress } from "antd";
 import { SocialIcon } from "react-social-icons";
 import "antd/dist/antd.css";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 // Images
 import dog from "../img/cata.png";
@@ -191,7 +192,9 @@ const Main = () => {
           <div className="text-container">
             {text}
             <div className="appoint-btn">
-              <button className="btn btn-pro">ЗАПИСАТЬСЯ</button>
+              <Link to="/appoint">
+                <button className="btn btn-pro">ЗАПИСАТЬСЯ</button>
+              </Link>
             </div>
           </div>
           <div className="icons_container">

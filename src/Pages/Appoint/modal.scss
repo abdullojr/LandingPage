@@ -1,0 +1,60 @@
+.modal__con {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(155, 82, 50, 0.1);
+    border-radius: 20px;
+
+
+    .x_con {
+        padding: 26px 26px 0px 0px ;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        span {
+            cursor: pointer;
+            color: #C3B9B5;
+        }
+    }
+
+    .head__con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h5 {
+            text-align: center;
+            font-size: 30px;
+        }
+        .input__field {
+            width: 344px;
+            height: 57px;
+            border: 1px solid #EDE9E8;
+            border-radius: 20px;
+            font-size: 20px;
+            padding-left: 16px;
+            margin-bottom: 32px;
+
+        }
+        .btn-next {
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFFFFF;
+            border: none;
+            width: 284px;
+            height: 67px;
+            background: #EDE9E8;
+            border-radius: 33.5px;
+            margin-bottom: 32px;
+        }
+        .head_con_label {
+            color: #FFC59E;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 73px;
+        }
+
+    }
+
+}
